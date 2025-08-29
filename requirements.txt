@@ -1,0 +1,6 @@
+edge-tts
+pyttsx3
+sounddevice
+soundfile
+numpy
+colorama
