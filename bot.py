@@ -53,7 +53,7 @@ def play_audio_on_device(filename: str):
 async def generate_edge_tts(text: str, filename: str):
     """使用 edge-tts 產生語音"""
     try:
-        communicate = edge_tts.Communicate(text=text, voice="zh-TW-YunJheNeural", rate="+10%")
+        communicate = edge_tts.Communicate(text=text, voice="zh-TW-HsiaoChenNeural", rate="+10%")
         await communicate.save(filename)
         return True
     except Exception as e:
